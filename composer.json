@@ -1,6 +1,7 @@
 {
     "name": "greenpeace/planet4-gpch-gutenberg-blocks",
     "description": "Provides Planet4 blocks editing in the Gutenberg editor",
+    "type": "wordpress-plugin",
     "license": "MIT",
     "require": {}
 }
