@@ -3,5 +3,18 @@
     "description": "Provides Planet4 blocks editing in the Gutenberg editor",
     "type": "wordpress-plugin",
     "license": "MIT",
-    "require": {}
+    "require": {},
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Greenpeace\\Planet4GPCHGutenbergBlocks\\": [
+                "includes"
+            ],
+            "Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\": [
+                "includes/blocks"
+            ]
+        }
+    }
 }
