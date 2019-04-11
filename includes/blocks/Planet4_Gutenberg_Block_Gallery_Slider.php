@@ -4,8 +4,8 @@ namespace Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
 use Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
-if ( ! class_exists( 'P4_Gutenberg_Block_Gallery_Slider' ) ) {
-	class P4_Gutenberg_Block_Gallery_Slider extends Blocks\P4_Gutenberg_Base_Block {
+if ( ! class_exists( 'Planet4_Gutenberg_Block_Gallery_Slider' ) ) {
+	class Planet4_Gutenberg_Block_Gallery_Slider extends Blocks\Planet4_Gutenberg_Base_Block {
 		public function __construct() {
 			if ( function_exists( 'acf_add_local_field_group' ) ) {
 				acf_add_local_field_group( array(
@@ -69,8 +69,8 @@ if ( ! class_exists( 'P4_Gutenberg_Block_Gallery_Slider' ) ) {
 				// register a testimonial block
 				acf_register_block( array(
 					'name'            => 'p4block_gallery_slider',
-					'title'           => __( 'Planet4: Gallery (Slider)' ),
-					'description'     => __( 'Planet4 Block: Gallery (Slider)' ),
+					'title'           => __( 'Planet4: Gallery (Slider)', 'planet4-gutenberg-blocks' ),
+					'description'     => __( 'Planet4 Block: Gallery (Slider)', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),
 					'category'        => 'common',
 					'icon'            => 'admin-comments',

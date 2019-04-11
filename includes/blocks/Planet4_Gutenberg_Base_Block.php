@@ -2,8 +2,8 @@
 
 namespace Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
-if ( ! class_exists( 'P4_Gutenberg_Base_Block' ) ) {
-	class P4_Gutenberg_Base_Block {
+if ( ! class_exists( 'Planet4_Gutenberg_Base_Block' ) ) {
+	class Planet4_Gutenberg_Base_Block {
 		/**
 		 * Generates a Wordpress shortcode
 		 *
