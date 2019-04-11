@@ -3,10 +3,10 @@ Provides Planet4 blocks editing in the Gutenberg editor.
 
 **Implemented blocks:**
 * Gallery: Slider (without title and subtitle)
+* Gallery: 3 Column (without title and subtitle)
+* Gallery Grid (without title and subtitle)
 
 **Planet4 blocks to be implemented (Priority):**
-* Gallery: 3 Column (1)
-* Gallery Grid (1)
 * Articles (1)
 * Carousel Header: Zoom and slide to grey (1)
 * Carousel Header: Full width classic (1)
