@@ -26,9 +26,9 @@ class ComposerStaticInit11cc630e39613af8c08884fc9e93c7e5
     );
 
     public static $classMap = array (
-        'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\P4_Gutenberg_Base_Block' => __DIR__ . '/../..' . '/includes/blocks/P4_Gutenberg_Base_Block.php',
-        'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\P4_Gutenberg_Block_Gallery_Slider' => __DIR__ . '/../..' . '/includes/blocks/P4_Gutenberg_Block_Gallery_Slider.php',
-        'Greenpeace\\Planet4GPCHGutenbergBlocks\\P4_Gpch_Gutenberg_Blocks' => __DIR__ . '/../..' . '/includes/Plugin.php',
+        'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Base_Block' => __DIR__ . '/../..' . '/includes/blocks/Planet4_Gutenberg_Base_Block.php',
+        'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Gallery_Slider' => __DIR__ . '/../..' . '/includes/blocks/Planet4_Gutenberg_Block_Gallery_Slider.php',
+        'Greenpeace\\Planet4GPCHGutenbergBlocks\\Planet4_Gpch_Gutenberg_Blocks' => __DIR__ . '/../..' . '/includes/Plugin.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

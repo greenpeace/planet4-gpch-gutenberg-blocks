@@ -21,4 +21,4 @@ require BASE_PATH . 'vendor/autoload.php';
 use Greenpeace\Planet4GPCHGutenbergBlocks;
 
 // Load Base Plugin
-$p4_gpch_gutenberg_blocks = Planet4GPCHGutenbergBlocks\P4_Gpch_Gutenberg_Blocks::get_instance();
+$p4_gpch_gutenberg_blocks = Planet4GPCHGutenbergBlocks\Planet4_Gpch_Gutenberg_Blocks::get_instance();

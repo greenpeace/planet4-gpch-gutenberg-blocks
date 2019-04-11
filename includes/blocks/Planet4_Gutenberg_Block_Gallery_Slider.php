@@ -4,8 +4,8 @@ namespace Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
 use Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
-if ( ! class_exists( 'P4_Gutenberg_Block_Gallery_Slider' ) ) {
-	class P4_Gutenberg_Block_Gallery_Slider extends Blocks\P4_Gutenberg_Base_Block {
+if ( ! class_exists( 'Planet4_Gutenberg_Block_Gallery_Slider' ) ) {
+	class Planet4_Gutenberg_Block_Gallery_Slider extends Blocks\Planet4_Gutenberg_Base_Block {
 		public function __construct() {
 			if ( function_exists( 'acf_add_local_field_group' ) ) {
 				acf_add_local_field_group( array(

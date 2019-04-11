@@ -4,20 +4,20 @@ namespace Greenpeace\Planet4GPCHGutenbergBlocks;
 
 use Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
-if ( ! class_exists( 'P4_Gpch_Gutenberg_Blocks' ) ) {
-	class P4_Gpch_Gutenberg_Blocks {
+if ( ! class_exists( 'Planet4_Gpch_Gutenberg_Blocks' ) ) {
+	class Planet4_Gpch_Gutenberg_Blocks {
 
 		/**
 		 * Singleton instance
 		 *
-		 * @var P4_Gpch_Gutenberg_Blocks
+		 * @var Planet4_Gpch_Gutenberg_Blocks
 		 */
 		private static $instance;
 
 		/**
 		 * Returns the instance
 		 *
-		 * @return P4_Gpch_Gutenberg_Blocks
+		 * @return Planet4_Gpch_Gutenberg_Blocks
 		 */
 		public static function get_instance() {
 			if ( null === self::$instance ) {
@@ -40,7 +40,7 @@ if ( ! class_exists( 'P4_Gpch_Gutenberg_Blocks' ) ) {
 			add_action( 'admin_enqueue_scripts', array($this, 'enqueue_admin_scripts'));
 
 			// Load Blocks
-			$BlockGallerySlider = new Blocks\P4_Gutenberg_Block_Gallery_Slider();
+			$BlockGallerySlider = new Blocks\Planet4_Gutenberg_Block_Gallery_Slider();
 		}
 
 		/**

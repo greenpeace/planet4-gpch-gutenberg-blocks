@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\P4_Gutenberg_Base_Block' => $baseDir . '/includes/blocks/P4_Gutenberg_Base_Block.php',
-    'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\P4_Gutenberg_Block_Gallery_Slider' => $baseDir . '/includes/blocks/P4_Gutenberg_Block_Gallery_Slider.php',
-    'Greenpeace\\Planet4GPCHGutenbergBlocks\\P4_Gpch_Gutenberg_Blocks' => $baseDir . '/includes/Plugin.php',
+    'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Base_Block' => $baseDir . '/includes/blocks/Planet4_Gutenberg_Base_Block.php',
+    'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Gallery_Slider' => $baseDir . '/includes/blocks/Planet4_Gutenberg_Block_Gallery_Slider.php',
+    'Greenpeace\\Planet4GPCHGutenbergBlocks\\Planet4_Gpch_Gutenberg_Blocks' => $baseDir . '/includes/Plugin.php',
 );
