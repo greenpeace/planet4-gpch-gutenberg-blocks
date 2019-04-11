@@ -4,16 +4,16 @@ namespace Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
 use Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
-if ( ! class_exists( 'Planet4_Gutenberg_Block_Gallery_Slider' ) ) {
-	class Planet4_Gutenberg_Block_Gallery_Slider extends Blocks\Planet4_Gutenberg_Base_Block {
+if ( ! class_exists( 'Planet4_Gutenberg_Block_Gallery_Grid' ) ) {
+	class Planet4_Gutenberg_Block_Gallery_Grid extends Blocks\Planet4_Gutenberg_Base_Block {
 		public function __construct() {
 			if ( function_exists( 'acf_add_local_field_group' ) ) {
 				acf_add_local_field_group( array(
-					'key'                   => 'group_p4_gutenberg_gallery_slider',
-					'title'                 => 'Planet4 Block: Gallery (Slider)',
+					'key'                   => 'group_p4_gutenberg_gallery_grid',
+					'title'                 => 'Planet4 Block: Gallery (Grid)',
 					'fields'                => array(
 						array(
-							'key'               => 'field_p4_gutenberg_gallery_slider_images',
+							'key'               => 'field_p4_gutenberg_gallery_grid_images',
 							'label'             => 'Images',
 							'name'              => 'images',
 							'type'              => 'gallery',
@@ -43,7 +43,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Gallery_Slider' ) ) {
 							array(
 								'param'    => 'block',
 								'operator' => '==',
-								'value'    => 'acf/p4block-gallery-slider',
+								'value'    => 'acf/p4block-gallery-grid',
 							),
 						),
 					),
@@ -68,13 +68,13 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Gallery_Slider' ) ) {
 
 				// register a testimonial block
 				acf_register_block( array(
-					'name'            => 'p4block_gallery_slider',
-					'title'           => __( 'Planet4: Gallery (Slider)', 'planet4-gutenberg-blocks' ),
-					'description'     => __( 'Planet4 Block: Gallery (Slider)', 'planet4-gutenberg-blocks' ),
+					'name'            => 'p4block_gallery_grid',
+					'title'           => __( 'Planet4: Gallery (Grid)', 'planet4-gutenberg-blocks' ),
+					'description'     => __( 'Planet4 Block: Gallery (Grid)', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),
 					'category'        => 'common',
 					'icon'            => 'admin-comments',
-					'keywords'        => array( 'gallery', 'slider' ),
+					'keywords'        => array( 'gallery', 'grid' ),
 				) );
 			}
 		}
@@ -93,7 +93,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Gallery_Slider' ) ) {
 
 			// Shortcode parameters
 			$parameters = array(
-				'gallery_block_style' => 1,
+				'gallery_block_style' => 3,
 				'multiple_image'      => $idList,
 			);
 
