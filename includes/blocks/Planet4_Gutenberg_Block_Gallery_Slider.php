@@ -69,8 +69,8 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Gallery_Slider' ) ) {
 				// register a testimonial block
 				acf_register_block( array(
 					'name'            => 'p4block_gallery_slider',
-					'title'           => __( 'Planet4: Gallery (Slider)' ),
-					'description'     => __( 'Planet4 Block: Gallery (Slider)' ),
+					'title'           => __( 'Planet4: Gallery (Slider)', 'planet4-gutenberg-blocks' ),
+					'description'     => __( 'Planet4 Block: Gallery (Slider)', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),
 					'category'        => 'common',
 					'icon'            => 'admin-comments',
