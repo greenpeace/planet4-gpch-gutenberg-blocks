@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Base_Block' => $baseDir . '/includes/blocks/Planet4_Gutenberg_Base_Block.php',
+    'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Articles' => $baseDir . '/includes/blocks/Planet4_Gutenberg_Block_Articles.php',
     'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Carousel_Header_Classic' => $baseDir . '/includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php',
     'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Carousel_Header_Zoom' => $baseDir . '/includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php',
     'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Gallery_3Column' => $baseDir . '/includes/blocks/Planet4_Gutenberg_Block_Gallery_3Column.php',
