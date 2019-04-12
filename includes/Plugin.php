@@ -47,13 +47,14 @@ if ( ! class_exists( 'Planet4_Gpch_Gutenberg_Blocks' ) ) {
 			add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_scripts' ) );
 
 			// Load Blocks
-			$this->blocks = array(
+			$this->blocks = [
 				new Blocks\Planet4_Gutenberg_Block_Gallery_Slider(),
 				new Blocks\Planet4_Gutenberg_Block_Gallery_3Column(),
 				new Blocks\Planet4_Gutenberg_Block_Gallery_Grid(),
 				new Blocks\Planet4_Gutenberg_Block_Carousel_Header_Zoom(),
 				new Blocks\Planet4_Gutenberg_Block_Carousel_Header_Classic(),
-			);
+				new Blocks\Planet4_Gutenberg_Block_Articles(),
+			];
 		}
 
 		/**
