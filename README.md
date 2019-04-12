@@ -8,15 +8,16 @@ Provides Planet4 blocks editing in the Gutenberg editor.
 * Articles
 * Carousel Header: Zoom and slide to grey
 * Carousel Header: Full width classic
+* Covers: Take Action Covers
+* Covers: Campaign Covers
+* Covers: Content Covers
 
 **Planet4 blocks to be implemented (Priority):**
 * Cookies (3)
 * Counter: Text Only (3)
 * Counter: Progress Bar (3)
 * Counter: Progress Dial (3)
-* Covers: Take Action Covers (1)
-* Covers: Campaign Covers (1)
-* Covers: Content Covers (1)
+
 * Engaging Networks Form (3)
 * Happy Point (2)
 * Social Media: oEmbed (2)
