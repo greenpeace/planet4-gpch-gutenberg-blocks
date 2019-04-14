@@ -16,5 +16,7 @@ return array(
     'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Gallery_3Column' => $baseDir . '/includes/blocks/Planet4_Gutenberg_Block_Gallery_3Column.php',
     'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Gallery_Grid' => $baseDir . '/includes/blocks/Planet4_Gutenberg_Block_Gallery_Grid.php',
     'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Gallery_Slider' => $baseDir . '/includes/blocks/Planet4_Gutenberg_Block_Gallery_Slider.php',
+    'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Social_Facebook_Page' => $baseDir . '/includes/blocks/Planet4_Gutenberg_Block_Social_Facebook_Page.php',
+    'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Social_Oembed' => $baseDir . '/includes/blocks/Planet4_Gutenberg_Block_Social_Oembed.php',
     'Greenpeace\\Planet4GPCHGutenbergBlocks\\Planet4_Gpch_Gutenberg_Blocks' => $baseDir . '/includes/Plugin.php',
 );
