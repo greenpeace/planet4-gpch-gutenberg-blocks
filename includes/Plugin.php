@@ -57,6 +57,8 @@ if ( ! class_exists( 'Planet4_Gpch_Gutenberg_Blocks' ) ) {
 				new Blocks\Planet4_Gutenberg_Block_Covers_Take_Action(),
 				new Blocks\Planet4_Gutenberg_Block_Covers_Campaign(),
 				new Blocks\Planet4_Gutenberg_Block_Covers_Content(),
+				new Blocks\Planet4_Gutenberg_Block_Social_Oembed(),
+				new Blocks\Planet4_Gutenberg_Block_Social_Facebook_Page(),
 			];
 		}
 
