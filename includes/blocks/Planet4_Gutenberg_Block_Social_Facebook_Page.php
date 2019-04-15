@@ -119,11 +119,11 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Social_Facebook_Page' ) ) {
 				// register the block
 				acf_register_block( array(
 					'name'            => 'p4block_social_facebook_page',
-					'title'           => __( 'Planet4: Facebook page', 'planet4-gutenberg-blocks' ),
+					'title'           => __( 'Facebook page', 'planet4-gutenberg-blocks' ),
 					'description'     => __( 'Planet4 Block: Facebook Page', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),
-					'category'        => 'common',
-					'icon'            => 'admin-comments',
+					'category'        => 'planet4',
+					'icon'            => 'facebook',
 					'keywords'        => array( 'social', 'media', 'facebook', 'event' ),
 				) );
 			}

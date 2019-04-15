@@ -595,11 +595,11 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Carousel_Header_Zoom' ) ) {
 				// register a testimonial block
 				acf_register_block( array(
 					'name'            => 'p4block_header_carousel_zoom',
-					'title'           => __( 'Planet4: Header Carousel (Zoom and slide to grey)', 'planet4-gutenberg-blocks' ),
+					'title'           => __( 'Header Carousel (Zoom and slide to grey)', 'planet4-gutenberg-blocks' ),
 					'description'     => __( 'Planet4 Block: Header Carousel (Zoom and slide to grey)', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),
-					'category'        => 'common',
-					'icon'            => 'admin-comments',
+					'category'        => 'planet4',
+					'icon'            => 'welcome-view-site',
 					'keywords'        => array( 'header', 'gallery', 'slider' ),
 				) );
 			}
