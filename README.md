@@ -11,18 +11,17 @@ Provides Planet4 blocks editing in the Gutenberg editor.
 * Covers: Take Action Covers
 * Covers: Campaign Covers
 * Covers: Content Covers
+* Social Media: oEmbed
+* Social Media: Facebook Page
+* Split Two Columns
 
 **Planet4 blocks to be implemented (Priority):**
 * Cookies (3)
 * Counter: Text Only (3)
 * Counter: Progress Bar (3)
 * Counter: Progress Dial (3)
-
 * Engaging Networks Form (3)
-* Happy Point (2)
-* Social Media: oEmbed (2)
-* Social Media: Facebook Page (2)
-* Split Two Columns (2)
+* Happy Point (3)
 * Submenu: Long full-width (3)
 * Submenu: Short full-width (3)
 * Submenu: Short sidebar (3)
