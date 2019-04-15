@@ -1,0 +1,443 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: planet4-gutenberg-blocks\n"
+"POT-Creation-Date: 2019-04-15 13:14+0200\n"
+"PO-Revision-Date: 2019-04-15 14:08+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: includes/blocks\n"
+
+#: includes/Plugin.php:72
+msgid ""
+"Planet 4 GPCH Gutenberg Blocks: Advanced Custom Fields must be installed and "
+"activated for this plugin to work."
+msgstr ""
+"Planet 4 GPCH Gutenberg Blocks: Advanced Custom Fields muss installiert und "
+"aktiviert sein damit dieses Plugin funktioniert."
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:23
+msgid "Read More Button Text"
+msgstr "Text Knopf \"Weiterlesen\""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:26
+msgid "The text on the read more button. Leave empty to use the standard."
+msgstr ""
+"Der Text auf dem \"Weiterlesen\"-Knopf. Leer lassen um den Standard zu "
+"verwenden."
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:42
+msgid "Read More Button Link"
+msgstr "Link des \"Weiterlesen\"-Knopfs"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:45
+msgid ""
+"Leave empty for default behaviour: The button loads more articles in place. "
+"If you set this field, the button will link to a separate page instead."
+msgstr ""
+"Leer lassen um neue Artikel direkt in der Seite zu laden. Wird eine URL "
+"ausgewählt, verlinkt der Knopf stattdessen auf diese."
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:57
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Content.php:71
+msgid "Post Types"
+msgstr "Post Typen"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:79
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Campaign.php:49
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Content.php:49
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Take_Action.php:49
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:101
+msgid "Article Count"
+msgstr "Anzahl Artikel"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:122
+msgid "Ignore Tags"
+msgstr "Ignoriere Tags"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:125
+msgid "Ignore tags and show posts of all tags"
+msgstr "Ignoriere Tags und zeige Beiträge aller Tags"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:149
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Content.php:93
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Take_Action.php:71
+msgid "Select posts"
+msgstr "Beitrag auswählen"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:152
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Content.php:96
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Take_Action.php:74
+msgid ""
+"Select posts to show manually and override the tag / post type selection"
+msgstr ""
+"Wähle Beiträge manuell um die Auswahl nach Tags / Beitragstypen zu "
+"überschreiben"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:200
+msgid "Planet4: Articles"
+msgstr "Planet4: Artikel"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Articles.php:201
+msgid "Planet4 Block: Articles List"
+msgstr "Planet4 Block: Artikelliste"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:36
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:35
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:37
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:36
+msgid "No"
+msgstr "Nein"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:86
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:216
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:346
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:476
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:85
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:215
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:345
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:475
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:153
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:284
+msgid "Top Left"
+msgstr "Oben Links"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:87
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:217
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:347
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:477
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:86
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:216
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:346
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:476
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:154
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:285
+msgid "Top Center"
+msgstr "Oben Zentriert"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:88
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:218
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:348
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:478
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:87
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:217
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:347
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:477
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:155
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:286
+msgid "Top Right"
+msgstr "Oben Rechts"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:89
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:219
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:349
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:479
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:88
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:218
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:348
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:478
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:156
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:287
+msgid "Middle Left"
+msgstr "Mitte Links"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:90
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:220
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:350
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:480
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:89
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:219
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:349
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:479
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:157
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:288
+msgid "Middle Center"
+msgstr "Mitte Zentriert"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:91
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:221
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:351
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:481
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:90
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:220
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:350
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:480
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:158
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:289
+msgid "Middle Right"
+msgstr "Mitte Rechts"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:92
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:222
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:352
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:482
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:91
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:221
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:351
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:481
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:159
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:290
+msgid "Bottom Left"
+msgstr "Unten Links"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:93
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:223
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:353
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:483
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:92
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:222
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:352
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:482
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:160
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:291
+msgid "Bottom Center"
+msgstr "Unten Zentriert"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:94
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:224
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:354
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:484
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:93
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:223
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:353
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:483
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:161
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:292
+msgid "Bottom Right"
+msgstr "Unten Rechts"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:599
+msgid "Planet4: Header Carousel (Classic)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Classic.php:600
+msgid "Planet4 Block: Header Carousel (Classic)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:598
+msgid "Planet4: Header Carousel (Zoom and slide to grey)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Carousel_Header_Zoom.php:599
+msgid "Planet4 Block: Header Carousel (Zoom and slide to grey)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Campaign.php:35
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Content.php:35
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Take_Action.php:35
+msgid "1 Row"
+msgstr "1 Zeile"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Campaign.php:36
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Content.php:36
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Take_Action.php:36
+msgid "2 Rows"
+msgstr "2 Zeilen"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Campaign.php:37
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Content.php:37
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Take_Action.php:37
+msgid "All"
+msgstr "Alle"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Campaign.php:102
+msgid "Planet4: Covers (Campaign)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Campaign.php:103
+msgid "Planet4 Block: Covers (Campaign)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Content.php:146
+msgid "Planet4: Covers (Posts)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Content.php:147
+msgid "Planet4 Block: Covers (Posts)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Take_Action.php:124
+msgid "Planet4: Covers (Take Action)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Covers_Take_Action.php:125
+msgid "Planet4 Block: Covers (Take Action)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Gallery_3Column.php:78
+msgid "Planet4: Gallery (3 Columns)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Gallery_3Column.php:79
+msgid "Planet4 Block: Gallery (3 Columns)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Gallery_Grid.php:78
+msgid "Planet4: Gallery (Grid)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Gallery_Grid.php:79
+msgid "Planet4 Block: Gallery (Grid)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Gallery_Slider.php:78
+msgid "Planet4: Gallery (Slider)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Gallery_Slider.php:79
+msgid "Planet4 Block: Gallery (Slider)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Facebook_Page.php:23
+msgid "Facebook page URL"
+msgstr "Facebook Seiten-URL"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Facebook_Page.php:39
+msgid "Facebook Content"
+msgstr "Facebook-Inhalte"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Facebook_Page.php:65
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Oembed.php:45
+msgid "Align"
+msgstr "Ausrichten"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Facebook_Page.php:122
+msgid "Planet4: Facebook page"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Facebook_Page.php:123
+msgid "Planet4 Block: Facebook Page"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Oembed.php:23
+msgid "URL"
+msgstr "URL"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Oembed.php:27
+msgid "The block works with the following social media content:"
+msgstr "Der Block funktioniert mit den folgenden Social-Media-Inhalten:"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Oembed.php:28
+msgid "Twitter: tweet, profile, list, collection, likes, moment"
+msgstr "Twitter: tweet, profile, list, collection, likes, moment"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Oembed.php:29
+msgid "Facebook: post, activity, photo, video, media, question, note"
+msgstr "Facebook: post, activity, photo, video, media, question, note"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Oembed.php:30
+msgid "Instagram: image"
+msgstr "Instagram: image"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Oembed.php:102
+msgid "Planet4: Social Content"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Social_Oembed.php:103
+msgid "Planet4 Block: Social Media Content"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:23
+msgid "Select Issue"
+msgstr "Issue/Basket auswählen"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:45
+msgid "Title"
+msgstr "Titel"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:48
+msgid "(Optional) Fill this only if you need to override issue title."
+msgstr ""
+"(Optional) Nur ausfüllen um den Titel des Issues/Baskets zu überschreiben."
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:65
+msgid "issue_description"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:67
+msgid ""
+"(Optional) Fill this only if you need to override the issue description."
+msgstr ""
+"(Optional) Nur ausfüllen um die Beschreibung des Issues/Baskets zu "
+"überschreiben"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:83
+msgid "Issue Link Text"
+msgstr "Issue/Baset Link Text"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:86
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:120
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:144
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:217
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:236
+msgid "(Optional)"
+msgstr "(Optional)"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:102
+msgid "Issue Link"
+msgstr "Issue/Basket Link"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:117
+msgid "Issue Image"
+msgstr "Issue/Basket-Bild"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:141
+msgid "Focus Issue Image"
+msgstr "Ausrichtung Issue/Basket-Bild"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:173
+msgid "Select Campaign Tag"
+msgstr "Kampagnen-Taga auswählen"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:195
+msgid "Campaign Description"
+msgstr "Kampagnen-Beschreibung"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:198
+msgid ""
+"(Optional) Fill this only if you need to override the campaign description."
+msgstr ""
+"(Optional) Nur ausfüllen um die Beschreibung der Kampagne zu überschreiben."
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:214
+msgid "Campaign button text"
+msgstr "Text Kampagnen-Knopf"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:233
+msgid "Campaign button link"
+msgstr "Link Kampagnen-Knopf"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:248
+msgid "Campaign Image"
+msgstr "Bild Kampagne"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:251
+msgid "(Optional) Fill this only if you need to override the campaign image."
+msgstr "(Optional) Nur auswählen, um das Kampagnenbild zu überschreiben."
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:272
+msgid "Focus Campaign Image"
+msgstr "Ausrichtung Kampagnen-Bild"
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:334
+msgid "Planet4: Split Two Columns (Issue/Campaign)"
+msgstr ""
+
+#: includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php:335
+msgid "Planet4 Block: Split two columns for issue and campaign combination"
+msgstr ""
