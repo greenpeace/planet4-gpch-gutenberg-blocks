@@ -6,6 +6,12 @@ use Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
 if ( ! class_exists( 'Planet4_Gutenberg_Block_Carousel_Header_Classic' ) ) {
 	class Planet4_Gutenberg_Block_Carousel_Header_Classic extends Blocks\Planet4_Gutenberg_Base_Block {
+
+		/**
+		 * @var string $shortcode_name
+		 */
+		private static $shortcode_name = 'shortcake_carousel_header';
+
 		public function __construct() {
 			if ( function_exists( 'acf_add_local_field_group' ) ) {
 				/** @noinspection PhpUndefinedFunctionInspection */
@@ -648,10 +654,10 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Carousel_Header_Classic' ) ) {
 			);
 
 			// Generate Shortcode
-			$shortcode = $this->generate_shortcode( 'shortcake_carousel_header', $parameters );
+			$shortcode = $this->generate_shortcode( self::$shortcode_name, $parameters );
 
 			// Run shortcode only if it's registered (to prevent shortcodes from appearing in the frontend
-			if ( shortcode_exists( 'shortcake_carousel_header' ) ) {
+			if ( shortcode_exists( self::$shortcode_name ) ) {
 				echo do_shortcode( $shortcode );
 			}
 

@@ -6,6 +6,12 @@ use Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
 if ( ! class_exists( 'Planet4_Gutenberg_Block_Social_Oembed' ) ) {
 	class Planet4_Gutenberg_Block_Social_Oembed extends Blocks\Planet4_Gutenberg_Base_Block {
+
+		/**
+		 * @var string $shortcode_name
+		 */
+		private static $shortcode_name = 'shortcake_social_media';
+
 		public function __construct() {
 			if ( function_exists( 'acf_add_local_field_group' ) ) {
 				acf_add_local_field_group( array(
@@ -14,7 +20,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Social_Oembed' ) ) {
 					'fields'                => array(
 						array(
 							'key'               => 'field_p4_gutenberg_social_oembed_url',
-							'label'             => __('URL', 'planet4-gutenberg-blocks'),
+							'label'             => __( 'URL', 'planet4-gutenberg-blocks' ),
 							'name'              => 'social_media_url',
 							'type'              => 'url',
 							'instructions'      => sprintf( '%s<br>- %s<br>- %s<br>- %s',
@@ -36,7 +42,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Social_Oembed' ) ) {
 
 						array(
 							'key'               => 'field_p4_gutenberg_social_oembed_align',
-							'label'             => __('Align', 'planet4-gutenberg-blocks'),
+							'label'             => __( 'Align', 'planet4-gutenberg-blocks' ),
 							'name'              => 'alignment_class',
 							'type'              => 'select',
 							'instructions'      => '',
@@ -108,17 +114,18 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Social_Oembed' ) ) {
 
 			// Shortcode parameters
 			$parameters = array(
-				'facebook_page_tab' => 'timeline', // This gets inserted in the Shortcake plugin. Probably not intended, but it's replicated here.
+				'facebook_page_tab' => 'timeline',
+				// This gets inserted in the Shortcake plugin. Probably not intended, but it's replicated here.
 				'social_media_url'  => $fields['social_media_url'],
 				'alignment_class'   => $fields['alignment_class'],
 
 			);
 
 			// Generate Shortcode
-			$shortcode = $this->generate_shortcode( 'shortcake_social_media', $parameters );
+			$shortcode = $this->generate_shortcode( self::$shortcode_name, $parameters );
 
 			// Run shortcode only if it's registered (to prevent shortcodes from appearing in the frontend
-			if ( shortcode_exists( 'shortcake_social_media' ) ) {
+			if ( shortcode_exists( self::$shortcode_name ) ) {
 				echo do_shortcode( $shortcode );
 			}
 		}

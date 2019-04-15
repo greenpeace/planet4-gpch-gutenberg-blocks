@@ -6,6 +6,12 @@ use Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
 if ( ! class_exists( 'Planet4_Gutenberg_Block_Split_Two_Columns' ) ) {
 	class Planet4_Gutenberg_Block_Split_Two_Columns extends Blocks\Planet4_Gutenberg_Base_Block {
+
+		/**
+		 * @var string $shortcode_name
+		 */
+		private static $shortcode_name = 'shortcake_split_two_columns';
+
 		public function __construct() {
 			if ( function_exists( 'acf_add_local_field_group' ) ) {
 				acf_add_local_field_group( array(
@@ -356,10 +362,10 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Split_Two_Columns' ) ) {
 			);
 
 			// Generate Shortcode
-			$shortcode = $this->generate_shortcode( 'shortcake_split_two_columns', $parameters, true );
+			$shortcode = $this->generate_shortcode( self::$shortcode_name, $parameters, true );
 
 			// Run shortcode only if it's registered (to prevent shortcodes from appearing in the frontend
-			if ( shortcode_exists( 'shortcake_split_two_columns' ) ) {
+			if ( shortcode_exists( self::$shortcode_name ) ) {
 				echo do_shortcode( $shortcode );
 			}
 		}

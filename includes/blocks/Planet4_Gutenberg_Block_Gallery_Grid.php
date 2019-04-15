@@ -6,6 +6,12 @@ use Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
 if ( ! class_exists( 'Planet4_Gutenberg_Block_Gallery_Grid' ) ) {
 	class Planet4_Gutenberg_Block_Gallery_Grid extends Blocks\Planet4_Gutenberg_Base_Block {
+
+		/**
+		 * @var string $shortcode_name
+		 */
+		private static $shortcode_name = 'shortcake_gallery';
+
 		public function __construct() {
 			if ( function_exists( 'acf_add_local_field_group' ) ) {
 				acf_add_local_field_group( array(
@@ -99,10 +105,10 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Gallery_Grid' ) ) {
 
 			// Generate Shortcode
 			//$shortcode = '[shortcake_gallery gallery_block_style="1" multiple_image="' . $idList . '"]';
-			$shortcode = $this->generate_shortcode( 'shortcake_gallery', $parameters );
+			$shortcode = $this->generate_shortcode( self::$shortcode_name, $parameters );
 
 			// Run shortcode only if it's registered (to prevent shortcodes from appearing in the frontend
-			if ( shortcode_exists( 'shortcake_gallery' ) ) {
+			if ( shortcode_exists( self::$shortcode_name ) ) {
 				echo do_shortcode( $shortcode );
 			}
 		}

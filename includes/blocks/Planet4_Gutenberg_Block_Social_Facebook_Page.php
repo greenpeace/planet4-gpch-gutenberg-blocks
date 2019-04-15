@@ -6,6 +6,12 @@ use Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
 if ( ! class_exists( 'Planet4_Gutenberg_Block_Social_Facebook_Page' ) ) {
 	class Planet4_Gutenberg_Block_Social_Facebook_Page extends Blocks\Planet4_Gutenberg_Base_Block {
+
+		/**
+		 * @var string $shortcode_name
+		 */
+		private static $shortcode_name = 'shortcake_social_media';
+
 		public function __construct() {
 			if ( function_exists( 'acf_add_local_field_group' ) ) {
 				acf_add_local_field_group( array(
@@ -129,17 +135,17 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Social_Facebook_Page' ) ) {
 			// Shortcode parameters
 			$parameters = array(
 				'embed_type'        => 'facebook_page',
-				'social_media_url' => $fields['social_media_url'],
+				'social_media_url'  => $fields['social_media_url'],
 				'facebook_page_tab' => $fields['facebook_page_tab'],
 				'alignment_class'   => $fields['alignment_class'],
 
 			);
 
 			// Generate Shortcode
-			$shortcode = $this->generate_shortcode( 'shortcake_social_media', $parameters );
+			$shortcode = $this->generate_shortcode( self::$shortcode_name, $parameters );
 
 			// Run shortcode only if it's registered (to prevent shortcodes from appearing in the frontend
-			if ( shortcode_exists( 'shortcake_social_media' ) ) {
+			if ( shortcode_exists( self::$shortcode_name ) ) {
 				echo do_shortcode( $shortcode );
 			}
 		}
