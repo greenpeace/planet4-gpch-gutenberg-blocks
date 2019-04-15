@@ -36,6 +36,9 @@ class ComposerStaticInit11cc630e39613af8c08884fc9e93c7e5
         'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Gallery_3Column' => __DIR__ . '/../..' . '/includes/blocks/Planet4_Gutenberg_Block_Gallery_3Column.php',
         'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Gallery_Grid' => __DIR__ . '/../..' . '/includes/blocks/Planet4_Gutenberg_Block_Gallery_Grid.php',
         'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Gallery_Slider' => __DIR__ . '/../..' . '/includes/blocks/Planet4_Gutenberg_Block_Gallery_Slider.php',
+        'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Social_Facebook_Page' => __DIR__ . '/../..' . '/includes/blocks/Planet4_Gutenberg_Block_Social_Facebook_Page.php',
+        'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Social_Oembed' => __DIR__ . '/../..' . '/includes/blocks/Planet4_Gutenberg_Block_Social_Oembed.php',
+        'Greenpeace\\Planet4GPCHGutenbergBlocks\\Blocks\\Planet4_Gutenberg_Block_Split_Two_Columns' => __DIR__ . '/../..' . '/includes/blocks/Planet4_Gutenberg_Block_Split_Two_Columns.php',
         'Greenpeace\\Planet4GPCHGutenbergBlocks\\Planet4_Gpch_Gutenberg_Blocks' => __DIR__ . '/../..' . '/includes/Plugin.php',
     );
 

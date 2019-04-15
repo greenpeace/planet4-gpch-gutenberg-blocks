@@ -6,6 +6,12 @@ use Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
 if ( ! class_exists( 'Planet4_Gutenberg_Block_Covers_Content' ) ) {
 	class Planet4_Gutenberg_Block_Covers_Content extends Blocks\Planet4_Gutenberg_Base_Block {
+
+		/**
+		 * @var string $shortcode_name
+		 */
+		private static $shortcode_name = 'shortcake_newcovers';
+
 		public function __construct() {
 			if ( function_exists( 'acf_add_local_field_group' ) ) {
 				acf_add_local_field_group( array(
@@ -137,11 +143,11 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Covers_Content' ) ) {
 				// register a testimonial block
 				acf_register_block( array(
 					'name'            => 'p4block_covers_content',
-					'title'           => __( 'Planet4: Covers (Posts)', 'planet4-gutenberg-blocks' ),
+					'title'           => __( 'Covers (Posts)', 'planet4-gutenberg-blocks' ),
 					'description'     => __( 'Planet4 Block: Covers (Posts)', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),
-					'category'        => 'common',
-					'icon'            => 'admin-comments',
+					'category'        => 'planet4',
+					'icon'            => 'screenoptions',
 					'keywords'        => array( 'cover', 'act' ),
 				) );
 			}
@@ -160,10 +166,10 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Covers_Content' ) ) {
 			);
 
 			// Generate Shortcode
-			$shortcode = $this->generate_shortcode( 'shortcake_newcovers', $parameters );
+			$shortcode = $this->generate_shortcode( self::$shortcode_name, $parameters );
 
 			// Run shortcode only if it's registered (to prevent shortcodes from appearing in the frontend
-			if ( shortcode_exists( 'shortcake_newcovers' ) ) {
+			if ( shortcode_exists( self::$shortcode_name ) ) {
 				echo do_shortcode( $shortcode );
 			}
 

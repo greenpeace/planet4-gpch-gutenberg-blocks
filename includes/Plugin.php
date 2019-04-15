@@ -46,6 +46,8 @@ if ( ! class_exists( 'Planet4_Gpch_Gutenberg_Blocks' ) ) {
 			// Actions
 			add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_scripts' ) );
 
+			add_filter( 'block_categories', array($this, 'registerBlockCategory'), 10, 2 );
+
 			// Load Blocks
 			$this->blocks = [
 				new Blocks\Planet4_Gutenberg_Block_Gallery_Slider(),
@@ -57,7 +59,30 @@ if ( ! class_exists( 'Planet4_Gpch_Gutenberg_Blocks' ) ) {
 				new Blocks\Planet4_Gutenberg_Block_Covers_Take_Action(),
 				new Blocks\Planet4_Gutenberg_Block_Covers_Campaign(),
 				new Blocks\Planet4_Gutenberg_Block_Covers_Content(),
+				new Blocks\Planet4_Gutenberg_Block_Social_Oembed(),
+				new Blocks\Planet4_Gutenberg_Block_Social_Facebook_Page(),
+				new Blocks\Planet4_Gutenberg_Block_Split_Two_Columns(),
 			];
+		}
+
+		/**
+         * Registers a new categories for our blocks
+         *
+		 * @param $categories
+		 * @param $post
+		 *
+		 * @return array
+		 */
+		public function registerBlockCategory( $categories, $post ) {
+			return array_merge(
+				$categories,
+				array(
+					array(
+						'slug'  => 'planet4',
+						'title' => __( 'Planet 4', 'planet4-gutenberg-blocks' ),
+					),
+				)
+			);
 		}
 
 		/**

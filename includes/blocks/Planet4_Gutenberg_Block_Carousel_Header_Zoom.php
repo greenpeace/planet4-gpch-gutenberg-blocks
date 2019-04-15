@@ -6,6 +6,12 @@ use Greenpeace\Planet4GPCHGutenbergBlocks\Blocks;
 
 if ( ! class_exists( 'Planet4_Gutenberg_Block_Carousel_Header_Zoom' ) ) {
 	class Planet4_Gutenberg_Block_Carousel_Header_Zoom extends Blocks\Planet4_Gutenberg_Base_Block {
+
+		/**
+		 * @var string $shortcode_name
+		 */
+		private static $shortcode_name = 'shortcake_carousel_header';
+
 		public function __construct() {
 			if ( function_exists( 'acf_add_local_field_group' ) ) {
 				acf_add_local_field_group( array(
@@ -76,15 +82,15 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Carousel_Header_Zoom' ) ) {
 								'id'    => '',
 							),
 							'choices'           => array(
-								'top left'      => __( 'Top Left', 'planet4-gutenberg-blocks' ),
-								'top center'    => __( 'Top Center', 'planet4-gutenberg-blocks' ),
-								'top right'     => __( 'Top Right', 'planet4-gutenberg-blocks' ),
-								'middle left'   => __( 'Middle Left', 'planet4-gutenberg-blocks' ),
-								'middle center' => __( 'Middle Center', 'planet4-gutenberg-blocks' ),
-								'middle right'  => __( 'Middle Right', 'planet4-gutenberg-blocks' ),
-								'bottom left'   => __( 'Bottom Left', 'planet4-gutenberg-blocks' ),
-								'bottom center' => __( 'Bottom Center', 'planet4-gutenberg-blocks' ),
-								'bottom right'  => __( 'Bottom Right', 'planet4-gutenberg-blocks' ),
+								'left top'      => __( 'Top Left', 'planet4-gutenberg-blocks' ),
+								'center top'    => __( 'Top Center', 'planet4-gutenberg-blocks' ),
+								'right top'     => __( 'Top Right', 'planet4-gutenberg-blocks' ),
+								'left center'   => __( 'Middle Left', 'planet4-gutenberg-blocks' ),
+								'center center' => __( 'Middle Center', 'planet4-gutenberg-blocks' ),
+								'right center'  => __( 'Middle Right', 'planet4-gutenberg-blocks' ),
+								'left bottom'   => __( 'Bottom Left', 'planet4-gutenberg-blocks' ),
+								'center bottom' => __( 'Bottom Center', 'planet4-gutenberg-blocks' ),
+								'right bottom'  => __( 'Bottom Right', 'planet4-gutenberg-blocks' ),
 							),
 							'default_value'     => array(),
 							'allow_null'        => 0,
@@ -206,15 +212,15 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Carousel_Header_Zoom' ) ) {
 								'id'    => '',
 							),
 							'choices'           => array(
-								'top left'      => __( 'Top Left', 'planet4-gutenberg-blocks' ),
-								'top center'    => __( 'Top Center', 'planet4-gutenberg-blocks' ),
-								'top right'     => __( 'Top Right', 'planet4-gutenberg-blocks' ),
-								'middle left'   => __( 'Middle Left', 'planet4-gutenberg-blocks' ),
-								'middle center' => __( 'Middle Center', 'planet4-gutenberg-blocks' ),
-								'middle right'  => __( 'Middle Right', 'planet4-gutenberg-blocks' ),
-								'bottom left'   => __( 'Bottom Left', 'planet4-gutenberg-blocks' ),
-								'bottom center' => __( 'Bottom Center', 'planet4-gutenberg-blocks' ),
-								'bottom right'  => __( 'Bottom Right', 'planet4-gutenberg-blocks' ),
+								'left top'      => __( 'Top Left', 'planet4-gutenberg-blocks' ),
+								'center top'    => __( 'Top Center', 'planet4-gutenberg-blocks' ),
+								'right top'     => __( 'Top Right', 'planet4-gutenberg-blocks' ),
+								'left center'   => __( 'Middle Left', 'planet4-gutenberg-blocks' ),
+								'center center' => __( 'Middle Center', 'planet4-gutenberg-blocks' ),
+								'right center'  => __( 'Middle Right', 'planet4-gutenberg-blocks' ),
+								'left bottom'   => __( 'Bottom Left', 'planet4-gutenberg-blocks' ),
+								'center bottom' => __( 'Bottom Center', 'planet4-gutenberg-blocks' ),
+								'right bottom'  => __( 'Bottom Right', 'planet4-gutenberg-blocks' ),
 							),
 							'default_value'     => array(),
 							'allow_null'        => 0,
@@ -336,15 +342,15 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Carousel_Header_Zoom' ) ) {
 								'id'    => '',
 							),
 							'choices'           => array(
-								'top left'      => __( 'Top Left', 'planet4-gutenberg-blocks' ),
-								'top center'    => __( 'Top Center', 'planet4-gutenberg-blocks' ),
-								'top right'     => __( 'Top Right', 'planet4-gutenberg-blocks' ),
-								'middle left'   => __( 'Middle Left', 'planet4-gutenberg-blocks' ),
-								'middle center' => __( 'Middle Center', 'planet4-gutenberg-blocks' ),
-								'middle right'  => __( 'Middle Right', 'planet4-gutenberg-blocks' ),
-								'bottom left'   => __( 'Bottom Left', 'planet4-gutenberg-blocks' ),
-								'bottom center' => __( 'Bottom Center', 'planet4-gutenberg-blocks' ),
-								'bottom right'  => __( 'Bottom Right', 'planet4-gutenberg-blocks' ),
+								'left top'      => __( 'Top Left', 'planet4-gutenberg-blocks' ),
+								'center top'    => __( 'Top Center', 'planet4-gutenberg-blocks' ),
+								'right top'     => __( 'Top Right', 'planet4-gutenberg-blocks' ),
+								'left center'   => __( 'Middle Left', 'planet4-gutenberg-blocks' ),
+								'center center' => __( 'Middle Center', 'planet4-gutenberg-blocks' ),
+								'right center'  => __( 'Middle Right', 'planet4-gutenberg-blocks' ),
+								'left bottom'   => __( 'Bottom Left', 'planet4-gutenberg-blocks' ),
+								'center bottom' => __( 'Bottom Center', 'planet4-gutenberg-blocks' ),
+								'right bottom'  => __( 'Bottom Right', 'planet4-gutenberg-blocks' ),
 							),
 							'default_value'     => array(),
 							'allow_null'        => 0,
@@ -466,15 +472,15 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Carousel_Header_Zoom' ) ) {
 								'id'    => '',
 							),
 							'choices'           => array(
-								'top left'      => __( 'Top Left', 'planet4-gutenberg-blocks' ),
-								'top center'    => __( 'Top Center', 'planet4-gutenberg-blocks' ),
-								'top right'     => __( 'Top Right', 'planet4-gutenberg-blocks' ),
-								'middle left'   => __( 'Middle Left', 'planet4-gutenberg-blocks' ),
-								'middle center' => __( 'Middle Center', 'planet4-gutenberg-blocks' ),
-								'middle right'  => __( 'Middle Right', 'planet4-gutenberg-blocks' ),
-								'bottom left'   => __( 'Bottom Left', 'planet4-gutenberg-blocks' ),
-								'bottom center' => __( 'Bottom Center', 'planet4-gutenberg-blocks' ),
-								'bottom right'  => __( 'Bottom Right', 'planet4-gutenberg-blocks' ),
+								'left top'      => __( 'Top Left', 'planet4-gutenberg-blocks' ),
+								'center top'    => __( 'Top Center', 'planet4-gutenberg-blocks' ),
+								'right top'     => __( 'Top Right', 'planet4-gutenberg-blocks' ),
+								'left center'   => __( 'Middle Left', 'planet4-gutenberg-blocks' ),
+								'center center' => __( 'Middle Center', 'planet4-gutenberg-blocks' ),
+								'right center'  => __( 'Middle Right', 'planet4-gutenberg-blocks' ),
+								'left bottom'   => __( 'Bottom Left', 'planet4-gutenberg-blocks' ),
+								'center bottom' => __( 'Bottom Center', 'planet4-gutenberg-blocks' ),
+								'right bottom'  => __( 'Bottom Right', 'planet4-gutenberg-blocks' ),
 							),
 							'default_value'     => array(),
 							'allow_null'        => 0,
@@ -589,11 +595,11 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Carousel_Header_Zoom' ) ) {
 				// register a testimonial block
 				acf_register_block( array(
 					'name'            => 'p4block_header_carousel_zoom',
-					'title'           => __( 'Planet4: Header Carousel (Zoom and slide to grey)', 'planet4-gutenberg-blocks' ),
+					'title'           => __( 'Header Carousel (Zoom and slide to grey)', 'planet4-gutenberg-blocks' ),
 					'description'     => __( 'Planet4 Block: Header Carousel (Zoom and slide to grey)', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),
-					'category'        => 'common',
-					'icon'            => 'admin-comments',
+					'category'        => 'planet4',
+					'icon'            => 'welcome-view-site',
 					'keywords'        => array( 'header', 'gallery', 'slider' ),
 				) );
 			}
@@ -607,7 +613,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Carousel_Header_Zoom' ) ) {
 		public function block_callback( $block ) {
 
 			$fields = get_fields();
-			
+
 			// Shortcode parameters
 			$parameters = array(
 				'block_style'       => 'zoom-and-slide-to-gray',
@@ -647,10 +653,10 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Carousel_Header_Zoom' ) ) {
 			);
 
 			// Generate Shortcode
-			$shortcode = $this->generate_shortcode( 'shortcake_carousel_header', $parameters );
+			$shortcode = $this->generate_shortcode( self::$shortcode_name, $parameters );
 
 			// Run shortcode only if it's registered (to prevent shortcodes from appearing in the frontend
-			if ( shortcode_exists( 'shortcake_carousel_header' ) ) {
+			if ( shortcode_exists( self::$shortcode_name ) ) {
 				echo do_shortcode( $shortcode );
 			}
 
