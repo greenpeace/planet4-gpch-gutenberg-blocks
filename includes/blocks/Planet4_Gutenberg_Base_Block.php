@@ -9,14 +9,17 @@ if ( ! class_exists( 'Planet4_Gutenberg_Base_Block' ) ) {
 		 *
 		 * @param string $shortcode_name
 		 * @param array $parameters
+		 * @param boolean $removeEmptyParameters: Removes empty parameters from shortcode
 		 *
 		 * @return string $shortcode
 		 */
-		public function generate_shortcode( $shortcode_name, $parameters ) {
+		public function generate_shortcode( $shortcode_name, $parameters, $removeEmptyParameters = false ) {
 			$shortcode = '[' . $shortcode_name;
 
 			foreach ( $parameters as $key => $value ) {
-				$shortcode .= ' ' . $key . '="' . $value . '"';
+				if ( ! ( $removeEmptyParameters && empty( $value ) ) ) {
+					$shortcode .= ' ' . $key . '="' . $value . '"';
+				}
 			}
 
 			$shortcode .= ']';
