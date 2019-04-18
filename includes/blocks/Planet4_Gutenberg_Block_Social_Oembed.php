@@ -98,7 +98,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Social_Oembed' ) ) {
 
 				// register the block
 				acf_register_block( array(
-					'name'            => 'p4block_social_oembed',
+					'name'            => 'p4block-social-oembed',
 					'title'           => __( 'Social Content', 'planet4-gutenberg-blocks' ),
 					'description'     => __( 'Planet4 Block: Social Media Content', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),
