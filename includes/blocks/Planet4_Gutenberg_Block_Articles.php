@@ -196,7 +196,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Articles' ) ) {
 
 				// register a testimonial block
 				acf_register_block( array(
-					'name'            => 'p4block_articles',
+					'name'            => 'p4block-articles',
 					'title'           => __( 'Articles', 'planet4-gutenberg-blocks' ),
 					'description'     => __( 'Planet4 Block: Articles List', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),

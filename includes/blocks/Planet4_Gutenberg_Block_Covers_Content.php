@@ -142,7 +142,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Covers_Content' ) ) {
 
 				// register a testimonial block
 				acf_register_block( array(
-					'name'            => 'p4block_covers_content',
+					'name'            => 'p4block-covers-content',
 					'title'           => __( 'Covers (Posts)', 'planet4-gutenberg-blocks' ),
 					'description'     => __( 'Planet4 Block: Covers (Posts)', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),

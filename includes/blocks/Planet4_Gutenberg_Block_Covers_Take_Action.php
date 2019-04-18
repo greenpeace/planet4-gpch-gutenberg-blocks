@@ -120,7 +120,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Covers_Take_Action' ) ) {
 
 				// register a testimonial block
 				acf_register_block( array(
-					'name'            => 'p4block_covers_take_action',
+					'name'            => 'p4block-covers-take-action',
 					'title'           => __( 'Covers (Take Action)', 'planet4-gutenberg-blocks' ),
 					'description'     => __( 'Planet4 Block: Covers (Take Action)', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),

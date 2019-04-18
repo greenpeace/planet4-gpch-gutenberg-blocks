@@ -74,7 +74,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Gallery_3Column' ) ) {
 
 				// register a testimonial block
 				acf_register_block( array(
-					'name'            => 'p4block_gallery_3column',
+					'name'            => 'p4block-gallery-3column',
 					'title'           => __( 'Gallery (3 Columns)', 'planet4-gutenberg-blocks' ),
 					'description'     => __( 'Planet4 Block: Gallery (3 Columns)', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),
