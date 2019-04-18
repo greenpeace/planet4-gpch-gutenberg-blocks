@@ -330,7 +330,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Split_Two_Columns' ) ) {
 
 				// register the block
 				acf_register_block( array(
-					'name'            => 'p4block_split_two_columns',
+					'name'            => 'p4block-split-two-columns',
 					'title'           => __( 'Split Two Columns (Issue/Campaign)', 'planet4-gutenberg-blocks' ),
 					'description'     => __( 'Planet4 Block: Split two columns for issue and campaign combination', 'planet4-gutenberg-blocks' ),
 					'render_callback' => array( $this, 'block_callback' ),
