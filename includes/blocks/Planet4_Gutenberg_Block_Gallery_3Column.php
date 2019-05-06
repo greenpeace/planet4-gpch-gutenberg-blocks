@@ -109,7 +109,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Gallery_3Column' ) ) {
 
 			// Run shortcode only if it's registered (to prevent shortcodes from appearing in the frontend
 			if ( shortcode_exists( self::$shortcode_name ) ) {
-				do_shortcode( $shortcode );
+				echo $shortcode;
 			}
 		}
 	}
