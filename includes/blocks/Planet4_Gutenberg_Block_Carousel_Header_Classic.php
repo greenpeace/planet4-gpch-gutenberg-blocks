@@ -658,7 +658,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Carousel_Header_Classic' ) ) {
 
 			// Run shortcode only if it's registered (to prevent shortcodes from appearing in the frontend
 			if ( shortcode_exists( self::$shortcode_name ) ) {
-				echo do_shortcode( $shortcode );
+				do_shortcode( $shortcode );
 			}
 
 		}
