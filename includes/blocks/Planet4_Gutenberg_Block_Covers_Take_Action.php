@@ -147,7 +147,11 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Covers_Take_Action' ) ) {
 
 			// Run shortcode only if it's registered (to prevent shortcodes from appearing in the frontend
 			if ( shortcode_exists( self::$shortcode_name ) ) {
-				echo $shortcode ;
+				if ( is_admin() ) {
+					echo do_shortcode( $shortcode );
+				} else {
+					echo $shortcode;
+				}
 			}
 
 		}
