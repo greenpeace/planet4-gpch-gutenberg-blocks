@@ -217,7 +217,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Articles' ) ) {
 				'read_more_text'       => $fields['read_more_text'],
 				'read_more_link'       => $fields['read_more_link'],
 				'post_types'           => is_array( $fields['post_types'] ) ? implode( ',', $fields['post_types'] ) : '',
-				'tags'                 => is_array( $fields['posts'] ) ? implode( ',', $fields['tags'] ) : '',
+				'tags'                 => is_array( $fields['tags'] ) ? implode( ',', $fields['tags'] ) : '',
 				'article_count'        => $fields['article_count'],
 				'ignore_categories'    => $fields['ignore_categories'],
 				'posts'                => is_array( $fields['posts'] ) ? implode( ',', $fields['posts'] ) : '',
