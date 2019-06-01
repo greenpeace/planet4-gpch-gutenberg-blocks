@@ -3,7 +3,7 @@
  * Plugin Name: Planet 4 GPCH Gutenberg Blocks
  * Plugin URI: https://github.com/greenpeace/planet4-gpch-gutenberg-blocks
  * Description: Provides Gutenberg editing for Planet4 blocks
- * Version: 0.1.8
+ * Version: 0.1.9
  * License: MIT
  * Text Domain: planet4-gutenberg-blocks
  */
