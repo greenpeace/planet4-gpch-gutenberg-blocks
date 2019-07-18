@@ -19,6 +19,25 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Covers_Take_Action' ) ) {
 						'title'                 => 'Planet4 Block: Covers (Take Action)',
 						'fields'                => array(
 							array(
+								'key'               => 'field_p4_gutenberg_covers_take_action_title',
+								'label'             => 'Title',
+								'name'              => 'title',
+								'type'              => 'text',
+								'instructions'      => '',
+								'required'          => 0,
+								'conditional_logic' => 0,
+								'wrapper'           => array(
+									'width' => '',
+									'class' => '',
+									'id'    => '',
+								),
+								'default_value'     => '',
+								'placeholder'       => '',
+								'prepend'           => '',
+								'append'            => '',
+								'maxlength'         => '',
+							),
+							array(
 								'key'               => 'field_p4_gutenberg_covers_take_action_rows',
 								'label'             => 'Rows to display',
 								'name'              => 'covers_view',
@@ -137,6 +156,7 @@ if ( ! class_exists( 'Planet4_Gutenberg_Block_Covers_Take_Action' ) ) {
 			// Shortcode parameters
 			$parameters = array(
 				'cover_type'  => '1', // Sets the cover to type Take Action
+				'title'       => !empty($fields['title']) ? $fields['title'] : '',
 				'tags'        => is_array( $fields['tags'] ) ? implode( ',', $fields['tags'] ) : '',
 				'covers_view' => $fields['covers_view'],
 				'posts'       => is_array( $fields['posts'] ) ? implode( ',', $fields['posts'] ) : '',
